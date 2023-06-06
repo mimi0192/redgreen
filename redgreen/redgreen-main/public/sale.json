@@ -1,0 +1,20 @@
+[
+    {
+        "id": "6322b7c15b6620fecccabb91",
+        "customer": "Israfil Arif",
+        "name": "Chuwi Laptop",
+        "date": "21/09/2022"
+      },
+      {
+        "id": "6322b7c1d6719259f0aa8d7b",
+        "customer": "Debashish D. Dev",
+        "name": "OnePlus TV",
+        "date": "20/09/2022"
+      },
+      {
+        "id": "6322b7c128f18b46d83a471c",
+        "customer": "JSajib Hossain",
+        "name": "UMI Phone",
+        "date": "16/09/2022"
+      }
+]

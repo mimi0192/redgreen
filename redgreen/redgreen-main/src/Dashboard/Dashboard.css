@@ -1,0 +1,68 @@
+.sale-card{
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; 
+    min-height: 420px;
+}
+.sale-header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.sale-header2{
+    display: flex;
+    align-items: center;
+}
+
+.sale-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-one{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.chart-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card{
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.sub-sale1{
+   padding: 10px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.sub-sale2{
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+@media screen and (max-width: 992px) {
+    .sale-header{
+        flex-direction: column;
+    }
+    .sale-header h1{
+        margin-bottom: 30px;
+    }
+    .sale-header2{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sale-list{
+        margin-bottom: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+

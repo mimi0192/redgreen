@@ -1,0 +1,72 @@
+[
+    {
+      "id": "6322b7c15b6620fecccabb91",
+      "name": "TV",
+      "title": "OnePlus TV 44 Inch",
+      "profit": 10,
+      "sales": "5k"
+    },
+    {
+      "id": "6322b7c1d6719259f0aa8d7b",
+      "name": "Mb",
+      "title": "UMI Smartphone",
+      "profit": 17,
+      "sales": "4.5k"
+    },
+    {
+      "id": "6322b7c128f18b46d83a471c",
+      "name": "JP",
+      "title": "Chuwi Laptop",
+      "profit": 20,
+      "sales": "2k"
+    },
+    {
+      "id": "6322b7c1dfcdc9c1937a7c0d",
+      "name": "JP",
+      "title": "Oneplut TV Y1G",
+      "profit": 1,
+      "sales": "1.5k"
+    },
+    {
+      "id": "6322b7c1d8b433b044cc3ae2",
+      "name": "JP",
+      "title": "Earphone",
+      "profit": -1,
+      "sales": "1.4k"
+    },
+    {
+      "id": "6322b7c1bd95ced7c0572d1d",
+      "name": "JP",
+      "title": "Charger",
+      "profit": -5,
+      "sales": "1.3k"
+    },
+    {
+      "id": "6322b7c11bb28550717c0ab7",
+      "name": "JP",
+      "title": "Cable",
+      "profit": -50,
+      "sales": "1.2k"
+    },
+    {
+      "id": "6322b7c14fb5f126159682e5",
+      "name": "JP",
+      "title": "Electric Car",
+      "profit": -5,
+      "sales": "900"
+    },
+    {
+      "id": "6322b7c1009a181ae9997d8a",
+      "name": "JP",
+      "title": "ERP Software",
+      "profit": 5,
+      "sales": "600"
+    },
+    {
+      "id": "6322b7c1918a4381e6865c89",
+      "name": "JP",
+      "title": "Attendance System",
+      "profit": 6,
+      "sales": "720"
+    }
+  ]

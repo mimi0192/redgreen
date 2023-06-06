@@ -1,0 +1,154 @@
+@import 'antd/dist/antd.css';
+.App {
+  text-align: left;
+}
+
+.ant-layout-header{
+  z-index: 1;
+  height: auto;
+  padding: 0px;
+  line-height: 0;
+  padding: 5px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.ant-layout-sider{
+  background: #fff;
+  width: 256px!important;
+  max-width: 256px!important;
+  min-width: 256px!important;
+}
+.ant-input, .ant-input-search-button{
+  border: none!important;
+  padding: 5px;
+  background: #F1F3F8!important;
+}
+
+.ant-layout-has-sider ul{
+  padding-left: 25px!important;
+}
+.ant-layout-has-sider ul li{
+  margin-left: 6px;
+}
+
+.product-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-sub{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-divider-horizontal {
+  margin: 10px 0;
+}
+
+.topHeader{
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 5px 0;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.topHeader #toggle-btn{
+  display: none;
+}
+
+.search-box{
+    width: 500px;
+    margin-top: 12px;
+}
+
+.sideBar{
+  top: 70px;
+  width: 256px;
+  position: fixed;
+}
+
+.main-content{
+  background: #fff;  
+  padding: 24px  ;
+  margin-top: 70px ; 
+  min-height: 480px; 
+}
+
+h1{
+  margin: 0;
+}
+
+h4,h5{
+  margin: 0;
+  color: gray;
+}
+
+@media screen and (max-width: 992px) {
+  .main-content{
+    margin-top: 120px;
+  }
+  .topHeader #toggle-btn{
+    display: block;
+  }
+  .sideBar{
+    top: 120px;
+  }
+  #sidebar{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .top-col{
+    width: 100%;
+  }
+  .product-col{
+    width: 100%;
+  }
+  .search-box{
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .top-col2{
+    width: 100%;
+  }
+  .top-col2 ul{
+    justify-content: center!important;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
